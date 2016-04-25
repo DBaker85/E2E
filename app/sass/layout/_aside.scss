@@ -1,0 +1,32 @@
+
+.user-panel__status {
+  i {
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 10px;
+    &.online {
+      background-color: #3c763d;
+    }
+    &.offline {
+      background-color: red;
+    }
+  }
+
+}
+
+.sidebar-menu__logos {
+  img {
+    width: 80px;
+    opacity: 0.5;
+    filter: grayscale(1);
+  }
+  &:hover {
+    img {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+  }
+}

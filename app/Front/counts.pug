@@ -1,0 +1,14 @@
+- failedCount = 0
+- passedCount = 0
+- testCount = 0
+
+if results.testing !== "inProgress"
+  each result in results
+    each spec in result.specs
+      - testCount++
+      if spec.status == "failed"
+        - failedCount++
+      if spec.status == "passed"
+        - passedCount++
+  - percentage = (passedCount/testCount)*100
+  - percent = Math.round( percentage * 10) / 10

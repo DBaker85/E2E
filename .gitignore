@@ -1,0 +1,5 @@
+node_modules
+app/Front/AdminLTE
+app/Front/admin
+app/Front/results/*.json
+app/results/**/*.*

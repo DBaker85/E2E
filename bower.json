@@ -1,0 +1,23 @@
+{
+  "name": "unit-testing",
+  "description": "",
+  "main": "Gulpfile.js",
+  "authors": [
+    "David <badcancer22@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#~2.3.2"
+  }
+}

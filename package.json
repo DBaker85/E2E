@@ -1,0 +1,40 @@
+{
+  "name": "unit-testing",
+  "version": "0.0.3",
+  "description": "",
+  "main": "Gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "fs-extra": "^0.26.4",
+    "gulp": "^3.9.0",
+    "gulp-angular-protractor": "0.0.6",
+    "gulp-express": "^0.3.5",
+    "jasmine": "^2.4.1",
+    "jasmine-json-test-reporter": "^1.0.0-beta",
+    "jasmine-spec-reporter": "^2.4.0",
+    "mongodb": "^2.1.10",
+    "node-watch": "^0.3.5",
+    "pug": "^2.0.0-alpha6",
+    "ws": "^1.0.1",
+    "yargs": "^3.32.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "colors": "^1.1.2",
+    "cssnano": "^3.5.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-open": "^1.0.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "author": "David Baker",
+  "license": "ISC"
+}
